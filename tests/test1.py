@@ -22,5 +22,9 @@ class TestCase1(unittest.TestCase):
     def test6(self):
         self.assertEqual("test", "test")
 
+    def test7(self):
+        self.assertEqual("test", "test1")
+
+
 if __name__ == '__main__':
     unittest.main()
